@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="assets/pasta.svg">
+    <title>Cuisine coeur</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Family -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="cocina.css">
+</head>
+<body>
+    <div class="loader">
+        <p class="loader__title">Cuisine Coeur</p>
+        <div class="lds-ellipsis"><div></div><div></div><div></div></div>
+    </div>
+
+    <header class="header" id="header">
+        <nav class="nav" id="nav">
+            <div class="nav-content">
+                <div class="nav-title">
+                    <img src="assets/pasta.svg" alt="pasta" class="nav-title__img">
+                    <h1 class="nav-title__h1">Cuisine coeur</h1>
+                </div>
+                <div class="nav-links">
+                    <div class="nav__link">
+                        <a href="#about" class="link" id="nav__link">Acerca de</a>
+                    </div>
+                    <div class="nav__link">
+                        <a href="#plates" class="link" id="nav__link">Platillos</a>
+                    </div>
+                    <div class="nav__link">
+                        <a href="#menu" class="link" id="nav__link">Menú</a>
+                    </div>
+                    <div class="nav__link">     
+                        <a href="#ubication" class="link" id="nav__link">Ubicación</a>
+                    </div>
+                    <div class="nav__link">
+                        <a href="#follow" class="link" id="nav__link">Siguenos</a>
+                    </div>
+                </div>
+                <div class="nav-bars"><i class="fas fa-bars"></i></div>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-content">
+                <h2 class="hero__title">¡Las mejores pastas para lo que guste el alma!</h2>
+               <div class="hero-bottom-content">
+                    <p class="hero__p">Hacemos las mejores pastas con toda la dedicación y con todo el corazón</p>
+                    <div class="hero__cta"><a href="#main">Ver Más</a></div>
+               </div>
+            </div>
+        </div>
+    </header>
+    <main class="main" id="main">
+        <section class="section-about section" id="about">
+            <h2 class="about__title title">Acerca de</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p class="about__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nobis voluptates eveniet ratione nostrum deleniti quod ipsum consequatur, esse totam vitae unde illo neque ab ipsa, recusandae quas tempora quasi. Reprehenderit tempore quia blanditiis corrupti animi optio tenetur eum vitae architecto! Amet inventore consectetur dolorem nesciunt veniam officiis quam laboriosam!</p>
+                    <div class="about__cta"><a href="#menu">Ver Menú</a></div>
+                </div>
+                <div class="about__img fade-in"></div>
+            </div>
+        </section>
+        <section class="section-plates section" id="plates">
+            <h2 class="section-plates__title title">Platillos</h2>
+            <div class="plates-content">
+                <div class="plate odd fade-in">
+                    <div class="plate__text">
+                        <h3 class="plate__title">Spaguetti</h3>
+                        <p class="plate__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus deserunt et nobis tempore. Nostrum corporis voluptas eius est perspiciatis! Vero aliquid quia suscipit quam velit assumenda atque, in animi vel?</p>
+                    </div>
+                    <div class="plate__img">
+                        <img src="assets/pasta1.jpg" alt="pasta">
+                    </div>
+                </div>
+                <div class="plate even fade-in">
+                    <div class="plate__text">
+                        <h3 class="plate__title">Macarrones</h3>
+                        <p class="plate__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus deserunt et nobis tempore. Nostrum corporis voluptas eius est perspiciatis! Vero aliquid quia suscipit quam velit assumenda atque, in animi vel?</p>
+                    </div>
+                    <div class="plate__img">
+                        <img src="assets/pasta2.jpg" alt="pasta">
+                    </div>
+                </div>
+                <div class="plate odd fade-in">
+                    <div class="plate__text">
+                        <h3 class="plate__title">Fettuccine</h3>
+                        <p class="plate__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus deserunt et nobis tempore. Nostrum corporis voluptas eius est perspiciatis! Vero aliquid quia suscipit quam velit assumenda atque, in animi vel?</p>
+                    </div>
+                    <div class="plate__img">
+                        <img src="assets/pasta3.jpg" alt="pasta">
+                    </div>
+                </div>
+                <div class="plate even fade-in">
+                    <div class="plate__text">
+                        <h3 class="plate__title">Lasaña</h3>
+                        <p class="plate__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus deserunt et nobis tempore. Nostrum corporis voluptas eius est perspiciatis! Vero aliquid quia suscipit quam velit assumenda atque, in animi vel?</p>
+                    </div>
+                    <div class="plate__img">
+                        <img src="assets/pasta4.jpg" alt="pasta">
+                    </div>
+                </div>
+            </div>
+            <div class="get-menu" id="menu">
+                <h3 class="menu__title">Ver Menú Completo</h3>
+                <div class="menu-flex">
+                    <div class="menu-content">
+                        <p class="menu__p">Puede ver todo los platillos y bebidas en Cuisine coeur a traves de este menu que aqui se le proporciona</p>
+                    </div>
+                    <div class="menu-document">
+                        <iframe class="menu__pdf" src="assets/Cuisine coeur - menu.pdf"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-ubication section" id="ubication">
+            <h2 class="ubication__title title">Ubicación</h2>
+            <div class="ubication-content">
+                <div class="ubication-data fade-in">
+                    <div class="data-section">
+                        <h3 class="data__title">Direccion</h3>
+                        <p class="data__p">
+                            Blvd. José Musa #951 L24-B,<br>
+                            Plaza Casa Grande<br>
+                            C.P. 25199<br>
+                            Saltillo, Coah<br>
+                            Tel. (844) 165.02.789
+                        </p>
+                    </div>          
+                    <div class="data-section">
+                        <h3 class="data__title">Horario</h3>
+                        <p class="data__p">
+                            Lunes a Sábado: 1pm a 12am<br>
+                            Domingo: 1pm a 10pm<br>
+                            <br>
+                            Aceptamos tarjetas VISA,<br>
+                            Mastercard y American Express
+                        </p>
+                    </div>          
+                    <div class="data-section">
+                        <h3 class="data__title">Servicio a domicilio</h3>
+                        <p class="data__p">
+                            Tel: (844)165-02-789
+                        </p>
+                    </div>
+                </div>
+                <div class="ubication-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57653.5567030003!2d-101.0182707412284!3d25.426650188526345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868812bbcbd64347%3A0xb3c07723be750769!2sLa%20Cipolla!5e0!3m2!1ses!2smx!4v1624884357034!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="fade-in"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="section-social-media section" id="follow">
+            <h2 class="social-media__title title">¡Siguenos!</h2>
+            <div class="social-media-links">
+                <div class="social-media-link"><a href="#"><i class="fab fa-instagram"></i></a></div>
+                <div class="social-media-link"><a href="#"><i class="fab fa-facebook"></i></a></div>
+                <div class="social-media-link"><a href="#"><i class="fab fa-twitter"></i></a></div>
+            </div>
+            <p class="contact-email">Para más información contactanos <a href="mailto:daniel.sunflores@gmail.com" class="email-link">aqui</a></p>
+            <div class="copyright">
+                <p class="copyright__text">Copyright &copy; 2021 | Cuisine Coeur</p>
+            </div>
+        </section>
+    </main>
+    <div class="up-btn">
+        <a href="#header"><i class="fas fa-angle-up"></i></a>
+    </div>
+    
+    <script src="cocina.js"></script>
+</body>
+</html>
