@@ -190,7 +190,7 @@ main{
     align-items: center;
     top: 4rem;
     left: 0;
-    width: 30%;
+    width: 45%;
     height: calc(100vh - 4rem);
     background: #fff;
     transform: translateX(-100%);
@@ -554,7 +554,7 @@ main{
     display: flex;
     justify-content: center;
     padding: 1em 0 2em;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -563,7 +563,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: .5em 1em;
+    margin: .5em;
     font-size: 1.6em;
     width: 60px;
     height: 60px;
